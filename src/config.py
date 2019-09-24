@@ -2,8 +2,8 @@ import toml
 import logging
 import os
 
-EXAMPLE_CONFIG = """\"token\"=\"\" # the bot's token
-\"prefix\"=\"!\" # prefix used to denote commands
+EXAMPLE_CONFIG = """\"NjI1ODMxNzE0OTU4MzQ0MTky.XYoLag.rtvz41Mc9etzKWjoQDn3sf-psJs\"=\"\" # the bot's token
+\"prefix\"=\"$$\" # prefix used to denote commands
 
 [music]
 # Options for the music commands
@@ -11,7 +11,7 @@ EXAMPLE_CONFIG = """\"token\"=\"\" # the bot's token
 "vote_skip"=true # whether vote-skipping is enabled
 "vote_skip_ratio"=0.5 # the minimum ratio of votes needed to skip a song
 [tips]
-"github_url"="https://github.com/joek13/py-music-bot"
+"github_url"="https://github.com/HokageSQ/pymu"
 """
 
 
